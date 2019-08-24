@@ -1,0 +1,18 @@
+{
+  "name": "bookz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "knex": "knex"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "knex": "^0.19.2",
+    "koa": "^2.7.0",
+    "nodemon": "^1.19.1",
+    "pg": "^7.12.1"
+  }
+}
